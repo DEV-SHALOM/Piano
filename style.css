@@ -1,0 +1,149 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+    background: linear-gradient(to left, purple, darkblue);
+}
+
+.container{
+    display: flex;
+    box-shadow: 0px 0px 100px rgb(0, 0, 0);
+    height: 60.3dvh;
+    padding-top: 20%;
+    transition: 500ms all;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+.cKey:nth-child(1){
+    border-top-left-radius: 25px;
+}
+.cKey:nth-child(13){
+    border-top-right-radius: 25px;
+}
+
+.cKey, .dKey, .eKey, .fKey, .gKey, .aKey, .bKey{
+    background: #F0F0F0;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    width: 20%;
+    height: 100%;
+    border: 1px solid #5c5b5b;
+    box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.57);
+    transition: 0.32s;
+}
+
+.cSharpKey, .dSharpKey, .fSharpKey, .gSharpKey, .aSharpKey{
+    border: 1px solid black;
+    width: 7%;
+    height: 40%;
+    box-shadow: inset 0px 0px 10px rgba(243, 240, 240, 0.39);
+}
+
+.cSharpKey{
+    background-color: black;
+    z-index: 1;
+    position: absolute;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    left: 9%;
+}
+
+.dSharpKey{
+    background-color: black;
+    z-index: 1;
+    position: absolute;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    left: 21.7%;
+}
+
+.fSharpKey{
+    background-color: black;
+    z-index: 1;
+    position: absolute;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    left: 46.5%;
+}
+
+.gSharpKey{
+    background-color: black;
+    z-index: 1;
+    position: absolute;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    left: 59.1%;
+}
+
+.aSharpKey{
+    background-color: black;
+    z-index: 1;
+    position: absolute;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    left: 71.6%;
+}
+
+.darkKey{
+    background: #dddddd;
+}
+
+.lightKey{
+    background: #0c0121;
+}
+
+@media (max-width: 768px) {
+    body{
+        overflow-x: hidden;
+
+    }
+
+    .container{
+        rotate : 90deg;
+        transform: scale(1.7);
+        align-content: center;
+        justify-content: center;
+        height: 100dvh;
+        padding-top: 0;
+        width: 100dvw;
+ 
+    }
+
+    .cKey, .dKey, .eKey, .fKey, .gKey, .aKey, .bKey{
+        width: 100%;
+    }
+
+    .cSharpKey, .dSharpKey, .fSharpKey, .gSharpKey, .aSharpKey{
+        height: 50%;
+    }
+}
+@media (min-width: 790px) and (max-width:1028px){
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .container{
+        rotate : 90deg;
+        transform: scale(1.2);
+        align-content: center;
+        justify-content: center;
+        height: 100dvh;
+        padding-top: 0;
+        width: 100dvw;
+ 
+    }
+
+    .cKey, .dKey, .eKey, .fKey, .gKey, .aKey, .bKey{
+        width: 100%;
+    }
+
+    .cSharpKey, .dSharpKey, .fSharpKey, .gSharpKey, .aSharpKey{
+        height: 50%;
+    }
+}
+
