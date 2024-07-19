@@ -33,11 +33,6 @@ const keyC1Sound = new Audio("./sound/key21.mp3");
 
 // ~~~~~~~~~~~~~~~~Key C~~~~~~~~~~~~~~~~~~~
 
-keyC.addEventListener("touchstart", () =>{
-    keyCSound.currentTime = 0;
-    keyCSound.play();
-    keyC.classList.add("darkKey")
-})
 keyC.addEventListener("mousedown", () =>{
     keyCSound.currentTime = 0;
     keyCSound.play();
@@ -53,11 +48,6 @@ keyC.addEventListener("mouseup", () =>{
 
 // ~~~~~~~~~~~~~~~~Key C Sharp~~~~~~~~~~~~~~~~~~~
 
-keyCSharp.addEventListener("touchstart", () =>{
-    keyCSharpSound.currentTime = 0;
-    keyCSharpSound.play();
-    keyCSharp.classList.add("lightKey")
-})
 keyCSharp.addEventListener("mousedown", () =>{
     keyCSharpSound.currentTime = 0;
     keyCSharpSound.play();
@@ -73,11 +63,6 @@ keyCSharp.addEventListener("mouseup", () =>{
 
 // ~~~~~~~~~~~~~~~~Key D~~~~~~~~~~~~~~~~~~~
 
-keyD.addEventListener("touchstart", () =>{
-    keyDSound.currentTime = 0;
-    keyDSound.play();
-    keyD.classList.add("darkKey")
-})
 keyD.addEventListener("mousedown", () =>{
     keyDSound.currentTime = 0;
     keyDSound.play();
@@ -93,11 +78,6 @@ keyD.addEventListener("mouseup", () =>{
 
 // ~~~~~~~~~~~~~~~~Key D Sharp~~~~~~~~~~~~~~~~~~~
 
-keyDSharp.addEventListener("touchstart", () =>{
-    keyDSharpSound.currentTime = 0;
-    keyDSharpSound.play();
-    keyDSharp.classList.add("lightKey")
-})
 keyDSharp.addEventListener("mousedown", () =>{
     keyDSharpSound.currentTime = 0;
     keyDSharpSound.play();
@@ -113,11 +93,6 @@ keyDSharp.addEventListener("mouseup", () =>{
 
 // ~~~~~~~~~~~~~~~~Key E~~~~~~~~~~~~~~~~~~~
 
-keyE.addEventListener("touchstart", () =>{
-    keyESound.currentTime = 0;
-    keyESound.play();
-    keyE.classList.add("darkKey")
-})
 keyE.addEventListener("mousedown", () =>{
     keyESound.currentTime = 0;
     keyESound.play();
@@ -133,11 +108,6 @@ keyE.addEventListener("mouseup", () =>{
 
 // ~~~~~~~~~~~~~~~~Key F~~~~~~~~~~~~~~~~~~~
 
-keyF.addEventListener("touchstart", () =>{
-    keyFSound.currentTime = 0;
-    keyFSound.play();
-    keyF.classList.add("darkKey")
-})
 keyF.addEventListener("mousedown", () =>{
     keyFSound.currentTime = 0;
     keyFSound.play();
@@ -153,11 +123,6 @@ keyF.addEventListener("mouseup", () =>{
 
 // ~~~~~~~~~~~~~~~~Key F Sharp~~~~~~~~~~~~~~~~~~~
 
-keyFSharp.addEventListener("touchstart", () =>{
-    keyFSharpSound.currentTime = 0;
-    keyFSharpSound.play();
-    keyFSharp.classList.add("lightKey")
-})
 keyFSharp.addEventListener("mousedown", () =>{
     keyFSharpSound.currentTime = 0;
     keyFSharpSound.play();
@@ -172,12 +137,6 @@ keyFSharp.addEventListener("mouseup", () =>{
 
 
 // ~~~~~~~~~~~~~~~~Key G~~~~~~~~~~~~~~~~~~~
-
-keyG.addEventListener("touchstart", () =>{
-    keyGSound.currentTime = 0;
-    keyGSound.play();
-    keyG.classList.add("darkKey")
-})
 keyG.addEventListener("mousedown", () =>{
     keyGSound.currentTime = 0;
     keyGSound.play();
@@ -193,11 +152,6 @@ keyG.addEventListener("mouseup", () =>{
 
 // ~~~~~~~~~~~~~~~~Key G Sharp~~~~~~~~~~~~~~~~~~~
 
-keyGSharp.addEventListener("touchstart", () =>{
-    keyGSharpSound.currentTime = 0;
-    keyGSharpSound.play();
-    keyGSharp.classList.add("lightKey")
-})
 keyGSharp.addEventListener("mousedown", () =>{
     keyGSharpSound.currentTime = 0;
     keyGSharpSound.play();
@@ -212,12 +166,6 @@ keyGSharp.addEventListener("mouseup", () =>{
 
 
 // ~~~~~~~~~~~~~~~~Key A~~~~~~~~~~~~~~~~~~~
-
-keyA.addEventListener("touchstart", () =>{
-    keyASound.currentTime = 0;
-    keyASound.play();
-    keyA.classList.add("darkKey")
-})
 keyA.addEventListener("mousedown", () =>{
     keyASound.currentTime = 0;
     keyASound.play();
@@ -233,11 +181,6 @@ keyA.addEventListener("mouseup", () =>{
 
 // ~~~~~~~~~~~~~~~~Key A Sharp~~~~~~~~~~~~~~~~~~~
 
-keyASharp.addEventListener("touchstart", () =>{
-    keyASharpSound.currentTime = 0;
-    keyASharpSound.play();
-    keyASharp.classList.add("lightKey")
-})
 keyASharp.addEventListener("mousedown", () =>{
     keyASharpSound.currentTime = 0;
     keyASharpSound.play();
@@ -253,11 +196,6 @@ keyASharp.addEventListener("mouseup", () =>{
 
 // ~~~~~~~~~~~~~~~~Key B~~~~~~~~~~~~~~~~~~~
 
-keyB.addEventListener("touchstart", () =>{
-    keyBSound.currentTime = 0;
-    keyBSound.play();
-    keyB.classList.add("darkKey")
-})
 keyB.addEventListener("mousedown", () =>{
     keyBSound.currentTime = 0;
     keyBSound.play();
@@ -273,11 +211,6 @@ keyB.addEventListener("mouseup", () =>{
 
 // ~~~~~~~~~~~~~~~~Key C1~~~~~~~~~~~~~~~~~~~
 
-keyC1.addEventListener("touchstart", () =>{
-    keyC1Sound.currentTime = 0;
-    keyC1Sound.play();
-    keyC1.classList.add("darkKey")
-})
 keyC1.addEventListener("mousedown", () =>{
     keyC1Sound.currentTime = 0;
     keyC1Sound.play();
