@@ -22,6 +22,7 @@ body,html{
 }
 .cKey:nth-child(13){
     border-top-right-radius: 25px;
+    box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.954);
 }
 
 .cKey, .dKey, .eKey, .fKey, .gKey, .aKey, .bKey{
@@ -32,7 +33,7 @@ body,html{
     width: 20%;
     height: 100%;
     border: 1px solid #5c5b5b;
-    box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.57);
+    box-shadow: 0px 0px 100px rgb(0, 0, 0);
     transition: 0.32s;
 }
 
