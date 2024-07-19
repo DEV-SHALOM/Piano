@@ -1,6 +1,6 @@
+document.addEventListener("DOMContentLoaded", ()=> {
 
-
-const keyC = document.getElementById("keyC");
+    const keyC = document.getElementById("keyC");
 const keyCSharp = document.getElementById("cSharpKey");
 const keyD = document.getElementById("keyD");
 const keyDSharp = document.getElementById("dSharpKey");
@@ -222,4 +222,5 @@ keyC1.addEventListener("mouseup", () =>{
 
 // ~~~~~~~~~~~~~~~~~~End~~~~~~~~~~~~~~~~~~~
 
+})
 
